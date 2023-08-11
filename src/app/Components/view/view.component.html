@@ -1,0 +1,27 @@
+<div class="container-fluid mt-5">
+
+    <h2>Your Score</h2>
+    <div class="Timer">
+        Time Left : {{this.time}} seconds
+    </div>
+    <table [@fadeInOut] class="table">
+
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let element of this.player_score;let i=index">
+                <th scope="row">{{i+1}}</th>
+                <td>{{element.player_id}}</td>
+                <td>{{element.player_name}}</td>
+                <td>{{element.player_score}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>

@@ -1,0 +1,30 @@
+.Ring{
+ display: flex;   
+ justify-content: center;
+}
+
+.rings{
+    border: 3px solid black;
+    width: 100px;
+}
+
+
+#ring6{
+background-color: red;
+}
+
+#ring5{
+    background-color: yellow;
+}
+#ring4{
+    background-color: green;
+}
+#ring3{
+    background-color: blue;
+}
+#ring2{
+    background-color: magenta;
+}
+#ring1{
+    background-color: lightcoral;
+}
